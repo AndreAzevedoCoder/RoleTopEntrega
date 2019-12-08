@@ -1,0 +1,10 @@
+﻿
+<center>
+
+<p class="MensagemDeErro">@Model.MensagemDeErro</p>
+<form method="POST" action='@Url.Action("Logar", "Cadastro")'>
+    <input class="InputText" type="text" name="Usuario" placeholder="Usuario" required>
+    <input class="InputText" type="password" name="Senha" placeholder="Senha" required>
+    <input class="BotaoNormal" type="submit" value="Enviar" />
+</form>
+</center>

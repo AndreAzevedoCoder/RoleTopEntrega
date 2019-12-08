@@ -1,0 +1,17 @@
+<center>
+
+<p class="Subtitulo">CRIAR EVENTO: </p>
+<form method="POST" action='@Url.Action("CriarEvento", "Cliente")'>
+    <input type="text" class="InputText" name="NomeDoEvento" placeholder="Nome do Evento" required>
+    <input type="date" class="InputText" name="DataDoEvento" placeholder="Data do Evento" required>
+    <input type="number" class="InputText" name="QuantidadeDePessoas" pattern="^[0–9]$" min="1" max="1000" placeholder="Quantidade de pessoas" required>
+    <select class="InputText" name="Pacote" required>
+        <option value="Normal">Normal</option>
+        <option value="ComMusica">ComMusica</option>
+        <option value="ComIluminacao">ComIluminacao</option>
+        <option value="ComMusicaEIluminacao">ComMusicaEIluminacao</option>
+    </select>
+    <input class="BotaoNormal" type="submit">
+</form>
+
+</center>

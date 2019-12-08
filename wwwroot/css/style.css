@@ -1,0 +1,90 @@
+html{
+    background-image:        linear-gradient(
+        rgba(0, 0, 0, 0.7), 
+        rgba(0, 0, 0, 0.7)
+      ), url("../img/background.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
+}
+body{
+    margin: 0;
+}
+html,body,main{
+    height: 100%;
+}
+header{
+    /* background-color: rgb(36, 36, 36); */
+    height: 3em;
+
+}
+nav{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+nav a{
+    margin-top: 0.75em;
+    color: white;
+    font-family: 'Roboto Slab', serif;
+    text-decoration: none;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.Titulo
+{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 12em;
+    color: white;
+    margin: 0;
+}
+.Subtitulo
+{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 3em;
+    color: white;
+    margin: 0;
+    
+
+}
+.Subsubtitulo
+{
+
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1.5em;
+    color: white;
+    margin: 0;
+    
+}
+th
+{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1.5em;
+    color: white;
+    margin: 0; 
+}
+.BotaoNormal
+{
+    border: none;
+    background-color: yellow;
+    border-radius: 32px;
+    padding: 1em;
+    width: 12em;
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+    margin-top: 0.5em;
+}
+form{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.InputText{
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    width: 30%;
+}

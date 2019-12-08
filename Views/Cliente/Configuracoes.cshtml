@@ -1,0 +1,11 @@
+<center>
+
+<p class="Mensagem de erro">@Model.MensagemDeErro</p>
+<p class="Subtitulo">Configuracoes</p>
+<form method="POST" action='@Url.Action("NovaSenha", "Cliente")'>
+    <input class="InputText"  type="password" name="SenhaAtual" placeholder="Senha atual" required>
+    <input class="InputText" type="password" name="NovaSenha" placeholder="Nova senha" required>
+    <input class="InputText" type="password" name="RepetirNovaSenha" placeholder="Repetir nova senha" required>
+    <input class="BotaoNormal" type="submit" value="Enviar">
+</form>
+</center>

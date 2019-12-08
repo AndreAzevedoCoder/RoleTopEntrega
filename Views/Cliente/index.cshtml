@@ -1,0 +1,43 @@
+@model RoleTopOficial.ViewModel.ClienteViewModel
+<center>
+
+  <p class="Subtitulo">Area do cliente</p>
+  <p class="Subsubtitulo">@Model.Usuario</p>
+
+  <p class="Subtitulo">Seus eventos: </p>
+  <table>
+    <tr>
+      <th>Nome</th>
+      <th>Data</th>
+      <th>Tipo</th>
+      <th>Pessoas</th>
+      <th>Situação</th>
+    </tr>
+      @foreach(var meuevento in @Model.Eventos)
+      {
+          <tr>
+              <td class="Subsubtitulo">@meuevento.Nome</td>
+              <td class="Subsubtitulo">@meuevento.DataDoEvento</td>
+              <td class="Subsubtitulo">@meuevento.TipoDeEvento</td>
+              <td class="Subsubtitulo">@meuevento.NumeroDePessoas</td>
+              @if(@meuevento.Status == 0){
+                <td class="Subsubtitulo">Pendente</td>
+              }else if(@meuevento.Status == 1){
+                <td class="Subsubtitulo">Aprovado</td>
+              }else if(@meuevento.Status == 2){
+                <td class="Subsubtitulo">Reprovado</td>
+              }
+              <form method="POST" action='@Url.Action("Remover", "Cliente")'>
+                <input type="hidden" name="ID" value=@meuevento.ID>
+                <td><input class="BotaoNormal" type="submit" value="Remover"></td>
+              </form>
+              
+          </tr>
+      }
+  </table>
+
+  <a  asp-controller="Cliente" asp-action="CriarEvento">
+      <input class="BotaoNormal" type="Submit" value="Criar Evento">
+  </a>
+</center>
+
