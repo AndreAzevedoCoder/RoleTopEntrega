@@ -147,7 +147,25 @@ namespace RoleTopOficial.Repositories
             return Eventos;
         }
 
-
+        public List<Evento> ObterTodos( )
+        {
+            List<Evento> Eventos = new List<Evento>();
+            var linhas = File.ReadAllLines(PATH);
+            foreach(var linha in linhas){
+                
+                    Evento c = new Evento();
+                    c.ID = ulong.Parse(ExtrairValorDoCampo("ID",linha));
+                    c.DonoDoEvento = ExtrairValorDoCampo("DonoDoEvento",linha);
+                    c.Nome = ExtrairValorDoCampo("Nome",linha);
+                    c.TipoDeEvento = ExtrairValorDoCampo("TipoDeEvento",linha);
+                    c.NumeroDePessoas = int.Parse(ExtrairValorDoCampo("NumeroDePessoas",linha));
+                    c.DataDoEvento = DateTime.Parse(ExtrairValorDoCampo("DataDoEvento",linha));
+                    c.Status = uint.Parse(ExtrairValorDoCampo("Status",linha));
+                    Eventos.Add(c);
+                
+            }
+            return Eventos;
+        }
 
         public string ExtrairValorDoCampo( string nomeCampo, string linha )
         {

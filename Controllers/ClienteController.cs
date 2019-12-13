@@ -40,6 +40,11 @@ namespace RoleTopOficial.Controllers
             ClienteViewModel clienteviewmodel = new ClienteViewModel(ObterUsuarioNomeSession());
             return View(clienteviewmodel);
         }
+        public IActionResult Galeria()
+        {
+            ClienteViewModel clienteviewmodel = new ClienteViewModel(ObterUsuarioNomeSession());
+            return View(clienteviewmodel);
+        }
         public IActionResult Contato()
         {
             ClienteViewModel clienteviewmodel = new ClienteViewModel(ObterUsuarioNomeSession());

@@ -16,23 +16,6 @@ namespace RoleTopOficial.Controllers
     public class CadastroController : AbstractController
     {
         private ClienteRepository clienteRepository = new ClienteRepository();
-        public IActionResult Index()
-        {
-
-
-            switch(ObterUsuarioNomeSession())
-            {
-                case "":
-                    ClienteViewModel clienteviewmodel = new ClienteViewModel(ObterUsuarioNomeSession());
-                    return View(clienteviewmodel);
-                default:
-                    return RedirectToAction("index","Home");
-            }
-
-
-            
-        }
-
         static string ComputeSha256Hash(string rawData)  
         {  
             // Create a SHA256   
@@ -49,7 +32,23 @@ namespace RoleTopOficial.Controllers
                 }  
                 return builder.ToString();  
             }  
+        }          public IActionResult Index()
+        {
+
+
+            switch(ObterUsuarioNomeSession())
+            {
+                case "":
+                    ClienteViewModel clienteviewmodel = new ClienteViewModel(ObterUsuarioNomeSession());
+                    return View(clienteviewmodel);
+                default:
+                    return RedirectToAction("index","Home");
+            }
+
+
+            
         }
+
         public IActionResult Login()
         {
 
@@ -106,7 +105,7 @@ namespace RoleTopOficial.Controllers
 
                         Cliente cliente = new Cliente(form["Nome"],
                             form["Usuario"],
-                            ComputeSha256Hash(form["Senha"]),
+                            form["Senha"],
                             form["email"],
                             DateTime.Parse(form["Data_Nascimento"])
                         );

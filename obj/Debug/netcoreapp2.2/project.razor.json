@@ -1,5 +1,5 @@
 {
-  "FilePath": "/home/satva/Documentos/RoleTopOFC/RoleTopOficial.csproj",
+  "FilePath": "c:\\Users\\54094513841\\Desktop\\RoleTopOFC\\RoleTopOficial.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-2.1",
     "LanguageVersion": "2.1",
@@ -2961,78 +2961,88 @@
   "RootNamespace": "RoleTopOficial",
   "Documents": [
     {
-      "FilePath": "/home/satva/Documentos/RoleTopOFC/Views/Cliente/Contato.cshtml",
-      "TargetPath": "Views/Cliente/Contato.cshtml",
+      "FilePath": "c:\\Users\\54094513841\\Desktop\\RoleTopOFC\\Views\\Shared\\Error.cshtml",
+      "TargetPath": "Views\\Shared\\Error.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/home/satva/Documentos/RoleTopOFC/Views/Shared/Error.cshtml",
-      "TargetPath": "Views/Shared/Error.cshtml",
+      "FilePath": "c:\\Users\\54094513841\\Desktop\\RoleTopOFC\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/home/satva/Documentos/RoleTopOFC/Views/Home/Index.cshtml",
-      "TargetPath": "Views/Home/Index.cshtml",
+      "FilePath": "c:\\Users\\54094513841\\Desktop\\RoleTopOFC\\Views\\Shared\\_CookieConsentPartial.cshtml",
+      "TargetPath": "Views\\Shared\\_CookieConsentPartial.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/home/satva/Documentos/RoleTopOFC/Views/Administrador/Dashboard.cshtml",
-      "TargetPath": "Views/Administrador/Dashboard.cshtml",
+      "FilePath": "c:\\Users\\54094513841\\Desktop\\RoleTopOFC\\Views\\_ViewImports.cshtml",
+      "TargetPath": "Views\\_ViewImports.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/home/satva/Documentos/RoleTopOFC/Views/Cliente/QuemSomos.cshtml",
-      "TargetPath": "Views/Cliente/QuemSomos.cshtml",
+      "FilePath": "c:\\Users\\54094513841\\Desktop\\RoleTopOFC\\Views\\Administrador\\Historico.cshtml",
+      "TargetPath": "Views\\Administrador\\Historico.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/home/satva/Documentos/RoleTopOFC/Views/Cliente/Configuracoes.cshtml",
-      "TargetPath": "Views/Cliente/Configuracoes.cshtml",
+      "FilePath": "c:\\Users\\54094513841\\Desktop\\RoleTopOFC\\Views\\Home\\Index.cshtml",
+      "TargetPath": "Views\\Home\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/home/satva/Documentos/RoleTopOFC/Views/Shared/_CookieConsentPartial.cshtml",
-      "TargetPath": "Views/Shared/_CookieConsentPartial.cshtml",
+      "FilePath": "c:\\Users\\54094513841\\Desktop\\RoleTopOFC\\Views\\Cadastro\\Login.cshtml",
+      "TargetPath": "Views\\Cadastro\\Login.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/home/satva/Documentos/RoleTopOFC/Views/Shared/_ValidationScriptsPartial.cshtml",
-      "TargetPath": "Views/Shared/_ValidationScriptsPartial.cshtml",
+      "FilePath": "c:\\Users\\54094513841\\Desktop\\RoleTopOFC\\Views\\Cliente\\Galeria.cshtml",
+      "TargetPath": "Views\\Cliente\\Galeria.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/home/satva/Documentos/RoleTopOFC/Views/_ViewStart.cshtml",
-      "TargetPath": "Views/_ViewStart.cshtml",
+      "FilePath": "c:\\Users\\54094513841\\Desktop\\RoleTopOFC\\Views\\_ViewStart.cshtml",
+      "TargetPath": "Views\\_ViewStart.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/home/satva/Documentos/RoleTopOFC/Views/Shared/_Layout.cshtml",
-      "TargetPath": "Views/Shared/_Layout.cshtml",
+      "FilePath": "c:\\Users\\54094513841\\Desktop\\RoleTopOFC\\Views\\Cliente\\Contato.cshtml",
+      "TargetPath": "Views\\Cliente\\Contato.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/home/satva/Documentos/RoleTopOFC/Views/Cliente/index.cshtml",
-      "TargetPath": "Views/Cliente/index.cshtml",
+      "FilePath": "c:\\Users\\54094513841\\Desktop\\RoleTopOFC\\Views\\Shared\\_Layout.cshtml",
+      "TargetPath": "Views\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/home/satva/Documentos/RoleTopOFC/Views/_ViewImports.cshtml",
-      "TargetPath": "Views/_ViewImports.cshtml",
+      "FilePath": "c:\\Users\\54094513841\\Desktop\\RoleTopOFC\\Views\\Administrador\\Dashboard.cshtml",
+      "TargetPath": "Views\\Administrador\\Dashboard.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/home/satva/Documentos/RoleTopOFC/Views/Cadastro/Login.cshtml",
-      "TargetPath": "Views/Cadastro/Login.cshtml",
+      "FilePath": "c:\\Users\\54094513841\\Desktop\\RoleTopOFC\\Views\\Cliente\\index.cshtml",
+      "TargetPath": "Views\\Cliente\\index.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/home/satva/Documentos/RoleTopOFC/Views/Cadastro/Index.cshtml",
-      "TargetPath": "Views/Cadastro/Index.cshtml",
+      "FilePath": "c:\\Users\\54094513841\\Desktop\\RoleTopOFC\\Views\\Cliente\\asdasda.cshtml",
+      "TargetPath": "Views\\Cliente\\asdasda.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/home/satva/Documentos/RoleTopOFC/Views/Cliente/CriarEvento.cshtml",
-      "TargetPath": "Views/Cliente/CriarEvento.cshtml",
+      "FilePath": "c:\\Users\\54094513841\\Desktop\\RoleTopOFC\\Views\\Cadastro\\Index.cshtml",
+      "TargetPath": "Views\\Cadastro\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\54094513841\\Desktop\\RoleTopOFC\\Views\\Cliente\\Configuracoes.cshtml",
+      "TargetPath": "Views\\Cliente\\Configuracoes.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\54094513841\\Desktop\\RoleTopOFC\\Views\\Cliente\\QuemSomos.cshtml",
+      "TargetPath": "Views\\Cliente\\QuemSomos.cshtml",
       "FileKind": "mvc"
     }
   ],

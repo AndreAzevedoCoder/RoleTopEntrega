@@ -28,6 +28,14 @@ namespace RoleTopOficial.Controllers
             }
 
         }
+        public IActionResult Historico()
+        {
+            ClienteViewModel clienteviewmodel = new ClienteViewModel(ObterUsuarioNomeSession());
+            clienteviewmodel.Eventos = eventorepository.ObterTodos();
+            return View("Historico",clienteviewmodel);
+            
+
+        }
         
         [HttpPost]
         public IActionResult Aprovar(IFormCollection form)

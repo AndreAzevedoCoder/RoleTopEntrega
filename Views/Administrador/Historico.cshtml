@@ -1,4 +1,5 @@
 @model RoleTopOficial.ViewModel.ClienteViewModel
+
 <center>
 
   <table>
@@ -21,20 +22,25 @@
           <td class="Subsubtitulo">@meuevento.DataDoEvento</td>
           <td class="Subsubtitulo">@meuevento.TipoDeEvento</td>
           <td class="Subsubtitulo">@meuevento.NumeroDePessoas</td>
-          <td class="Subsubtitulo">Pendente</td>
-          <form method="POST" action='@Url.Action("Aprovar", "Administrador")'>
-            <input type="hidden" name="ID" value=@meuevento.ID>
-            <td><input class="BotaoNormal" type="submit" name="Aprovar" value="Aprovar"></td>
-          </form>
-          <form method="POST" action='@Url.Action("Cancelar", "Administrador")'>
-            <input type="hidden" name="ID" value=@meuevento.ID>
-            <td><input class="BotaoNormal" type="submit" name="Cancelar" value="Cancelar"></td>
-          </form>
+          @switch(@meuevento.Status)
+          {
+              case 0:
+                  <td class="Subsubtitulo">Pendente</td>
+                  break;
+              case 1:
+                  <td class="Subsubtitulo">Aprovado</td>
+                  break;
+              case 2:
+                  <td class="Subsubtitulo">Reprovado</td>
+                  break;
+          }
+
+
       </tr>
   }
   </table>
-  <a asp-controller="Administrador" asp-action="Historico">
-    <button class="BotaoNormal" >Historico</button>
+  <a asp-controller="Administrador" asp-action="Dashboard">
+    <button class="BotaoNormal">Dashboard</button>
   </a>
 
 </center>

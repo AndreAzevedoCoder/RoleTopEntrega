@@ -4,7 +4,7 @@ using RoleTopOficial.Models;
 
 namespace RoleTopOficial.ViewModel
 {
-    public class ClienteViewModel : BaseViewModel
+    public class ClienteViewModel 
     {
         public string Usuario {get;set;}
         public List<Evento> Eventos {get;set;}
